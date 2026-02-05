@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  voicedetect:
+    build: .
+    container_name: voicedetect-api
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - API_KEY=sk_test_123456789
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
