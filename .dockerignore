@@ -1,18 +1,20 @@
 node_modules
 .next
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
 npm-debug.log
+pnpm-debug.log
+
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.git
-.gitignore
-README.md
-.md files
+
 .DS_Store
 .vercel
-build
-dist
 coverage
 .prettierignore
 .eslintignore
